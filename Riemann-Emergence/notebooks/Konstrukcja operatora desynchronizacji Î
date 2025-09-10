@@ -1,0 +1,5 @@
+L = nx.laplacian_matrix(G).astype(float)
+degrees = np.array([d for _, d in G.degree()])
+I_sync = identity(N, format='csr') * 1.0
+I_ent = diags(0.1 * degrees, 0, format='csr')
+I_operator = 1.0 * L + I_sync + I_ent

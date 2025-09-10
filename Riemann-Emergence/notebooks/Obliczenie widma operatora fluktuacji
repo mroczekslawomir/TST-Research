@@ -1,0 +1,2 @@
+eigenvalues, _ = eigsh(I_operator, k=100, which='SM')
+norm = (eigenvalues - np.min(eigenvalues)) / (np.max(eigenvalues) - np.min(eigenvalues))

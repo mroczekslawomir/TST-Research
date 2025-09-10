@@ -1,0 +1,6 @@
+in_band = np.sum((norm >= 0.45) & (norm <= 0.55))
+expected = 100 * 0.1
+z = (in_band - expected) / np.sqrt(expected)
+p_value = 2 * (1 - 0.5 * (1 + erf(z / np.sqrt(2)))) if in_band > expected else 1.0
+print(f"Eigenvalues in [0.45, 0.55]: {in_band}/100")
+print(f"p-value: {p_value:.2e}")

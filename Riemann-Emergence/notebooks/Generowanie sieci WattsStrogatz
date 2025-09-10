@@ -1,0 +1,4 @@
+N = 1000
+k = 4
+p = 0.1
+G = nx.watts_strogatz_graph(N, k, p, seed=42)
