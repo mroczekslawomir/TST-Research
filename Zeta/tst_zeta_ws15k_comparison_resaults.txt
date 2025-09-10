@@ -1,0 +1,38 @@
+🌌 TST RIEMANN HYPOTHESIS COMPLETE ANALYSIS FOR WS_15k
+======================================================================
+
+🚀 Step 1: Running TST simulation for WS_15k
+Creating WS network with 15,000 nodes...
+✅ TST simulation completed in 514.43s
+   Broad band [0.45,0.55]: 114/800 (14.2%)
+   p-value: 1.44e-04
+
+📥 Step 2: Downloading Riemann zeta zeros
+Downloading first 100000 Riemann zeta zeros...
+✅ Downloaded 100000 zeta zeros
+
+📊 Step 3: Preparing data for comparison
+
+🔍 Step 4: Statistical comparison
+
+💾 Step 5: Saving results
+
+📈 Step 6: Creating visualizations
+✅ Visualizations saved to 'tst_zeta_ws15k_comparison.png'
+
+✅ Analysis completed in 520.04s
+💾 Results saved to 'tst_zeta_ws15k_complete_analysis.json'
+
+🎯 COMPLETE ANALYSIS SUMMARY FOR WS_15k
+============================================================
+TST Simulation (WS_15k):
+  • Broad band [0.45,0.55]: 114/800 (14.2%)
+  • p-value: 1.44e-04
+  • Computation time: 514.43s
+
+Statistical Comparison:
+  • KS statistic: 0.1412
+  • KS p-value: 2.24e-07
+  • Mean gap ratio (TST/Zeta): 1.0000
+  ⚠️  Distributions are statistically different
+  • Pair correlation RMS difference: 0.0008

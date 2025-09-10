@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-09-10T19:51:51.163030",
+  "tst_simulation": {
+    "nodes": 10000,
+    "eigenvalues": 500,
+    "broad_band_count": 71,
+    "broad_band_percentage": 14.2,
+    "p_value": 0.002979466656332974,
+    "computation_time": 340.3357481956482
+  },
+  "zeta_zeros": {
+    "count": 100000,
+    "imag_range": [
+      14.134725142,
+      811.184358847
+    ]
+  },
+  "comparison": {
+    "ks_statistic": 0.146,
+    "ks_pvalue": 4.575187652931717e-05,
+    "zeta_mean_gap": 1.5972938551202402,
+    "tst_mean_gap": 1.5972938551202405,
+    "zeta_std_gap": 0.7537835372718049,
+    "tst_std_gap": 6.178746130169197,
+    "pair_correlation_rms_diff": 0.0014622141294322946
+  }
+}
